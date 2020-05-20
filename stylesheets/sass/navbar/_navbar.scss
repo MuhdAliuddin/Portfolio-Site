@@ -1,0 +1,26 @@
+nav a {
+    //color: $base-white;
+}
+nav a:hover {
+    color: $base-white;
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0 0 0 auto;
+    padding: 0;
+}
+.navbar {
+    padding: 35px 45px 0 45px;
+}
+.nav-deco-white {
+    color: $base-white;
+    font-size: 18px;
+}
+.nav-deco-grey {
+    color: #d1d1d1;
+    font-size: 18px;
+}
+.nav-home {
+    font-weight: bold;
+}

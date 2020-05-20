@@ -1,0 +1,31 @@
+footer {
+    //margin: 0 120px 0 120px;
+    margin-bottom: 40px;
+    text-align: right;
+    width: 100%;
+}
+footer div p {
+    color: #d1d1d1;
+    font-size: 0.8em;
+    margin: 10px 0;
+}
+img {
+    width: 30px;
+}
+@media only screen and (max-width: 768px) {
+    footer {
+        //border-top: 1px solid $base-white;
+        text-align: center;
+    }
+    footer div {
+        margin: 10px 0;
+    }
+    img {
+        
+        width: 80px;
+    }
+}
+.right-flex div {
+    display: inline-block;
+}
+

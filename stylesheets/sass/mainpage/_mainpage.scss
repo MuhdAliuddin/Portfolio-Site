@@ -1,0 +1,40 @@
+main {
+    //margin: 0 180px;
+    padding: 80px 0;
+    width: 100%;
+}
+main a {
+    color: $base-white;
+    display: block;
+    padding: 1em 2em;
+}
+main a:hover {
+    color: $base-black !important;
+    text-decoration: none;
+}
+main div {
+    background: $base-black;
+    color: $base-white;
+    font-size: 0.8em;
+    margin: 2% 15%;
+    //padding: 1em 2em;
+    max-width: 150px;
+}
+main div:hover {
+    background: $base-white;
+    color: $base-black;
+}
+.btn-round {
+    border-radius: 5px;
+    border: 2px solid $base-white;
+}
+.btn-text {
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+}
+.center-flex {
+    text-align: center;
+}
+.center-flex div {
+    display: inline-block;
+}

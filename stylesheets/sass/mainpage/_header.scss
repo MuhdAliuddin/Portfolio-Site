@@ -1,0 +1,76 @@
+h4 {
+    font-size: 2em;
+} 
+h6 {
+    font-size: 0.8em;
+}
+header {
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+.align-center {
+    text-align: center;
+}
+.bold-upprcase {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.border-white {
+    border-bottom: 1px solid $base-white;
+}
+.italic {
+    font-style: italic;
+}
+
+
+.fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
